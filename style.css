@@ -7,7 +7,6 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #333;
 }
       
 .first_section{
@@ -32,25 +31,59 @@ body {
     font-weight: bold;
     color: #F9FAF8;
     justify-content: center;
-    padding-left: 10em;
 }
 
 .header_links{
     color: white;
     display: flex;
     flex: 1;
-    justify-content: left;
+    justify-content: center;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    padding-bottom: 3em;
+}
+
+.hero_left{
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero_main{
+    padding: 0 20%;
+    flex: 1;
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+
 }
 
 .hero_secondary{
+    padding: 0 20%;
+    flex: 1;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero_right{
+    display: flex;
+    flex: 1;
+    /* justify-content: left; */
+    align-items: center;
+}
+
+.hero_image{
+    /* flex: 1; */
+    height: auto;
+    width: 50%;
 }
 
 button{

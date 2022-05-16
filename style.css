@@ -86,7 +86,7 @@ body {
     width: 70%;
 }
 
-button{
+.hero_button{
     background-color: #3882F6;
     border: none;
     color: white;
@@ -146,4 +146,63 @@ button{
     flex: 1;
     width: 200px;
     height: auto;
+}
+
+.fourth_section{
+    display: flex;
+    flex: 1;
+    margin: 5% 20%;
+}
+
+.fourth_section_block{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+    border: #3882F6 2px solid;
+    border-radius: 12px;
+    background-color: #3882F6;
+}
+
+.ending_left,
+.ending_right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+.ending_left{
+    flex-direction: column;
+    gap: 10px;
+    color: #F9FAF8;
+}
+
+.ending_left p{
+    margin: 0px;
+}
+
+.ending_left h3{
+    margin: 0;
+}
+
+.ending_right{
+    justify-content: left;
+}
+
+.ending_button{
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: white 1px solid;
+    border-radius: 12px;
+    cursor: pointer;
 }

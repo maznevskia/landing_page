@@ -1,0 +1,43 @@
+.first_section{
+    background-color: #1F2937;
+}
+
+.header_logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header_links{
+    color: white;
+}
+
+.hero_main{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero_secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.information_header{
+    font-size: 38px;
+    font-weight: bold;
+    color: #1F2937;
+}

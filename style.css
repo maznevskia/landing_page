@@ -206,3 +206,12 @@ body {
     border-radius: 12px;
     cursor: pointer;
 }
+
+.fifth_section{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 1em;
+}

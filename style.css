@@ -63,7 +63,7 @@ body {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
-
+    margin: 0px;
 }
 
 .hero_secondary{
@@ -83,7 +83,7 @@ body {
 .hero_image{
     /* flex: 1; */
     height: auto;
-    width: 50%;
+    width: 70%;
 }
 
 button{
@@ -100,8 +100,50 @@ button{
     cursor: pointer;
 }
 
+.second_section{
+    display: flex;
+}
+
+.title_of_pictures{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
 .information_header{
     font-size: 38px;
     font-weight: bold;
     color: #1F2937;
+}
+
+.pictures_description{
+    display: flex;
+    flex: 1;
+}
+
+.btc,
+.eth,
+.sol,
+.usdt{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic_frame{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: #3882F6 2px solid;
+    border-radius: 12px;
+}
+
+.text_frame{
+    display: flex;
+    flex: 1;
+    width: 200px;
+    height: auto;
 }
